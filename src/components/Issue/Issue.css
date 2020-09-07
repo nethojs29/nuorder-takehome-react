@@ -1,0 +1,51 @@
+.Issue {
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .Issue:hover {
+    background-color: #efefef;
+  }
+
+  .Issue .open {
+    fill: green;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .Issue .closed {
+    fill: red;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .Issue .title {
+    font-size: medium;
+    font-weight: 600;
+    color: #24292e
+  }
+
+  .Issue .title:hover {
+    color: #0366d6;
+    cursor: pointer;
+  }
+  
+  .Issue .label {
+    padding: 2px 4px;
+    font-weight: normal;
+    font-size: small;
+    margin: 3px;
+    border-radius: 5px;
+  }
+  
+  .Issue .summary {
+    color: #777;
+    margin-left: 30px;
+    font-size: small;
+  }

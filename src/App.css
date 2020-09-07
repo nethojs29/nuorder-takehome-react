@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+
+.App .search {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  margin: 20px;
+  width: 100%;
+}
